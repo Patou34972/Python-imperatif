@@ -13,3 +13,6 @@ print("lavaleur est de type", type(string))
 
 print( "La valeur de ma variable boolean est :", boolean)
 print("lavaleur est de type", type(boolean))
+
+resultat = f"Monsieur {string} a eu une note de {number} sur 20 et une moyenne générale de {decimal}"
+print(resultat)
