@@ -7,7 +7,6 @@ def somme_nombres_pairs(liste):
         if nombre % 2 == 0:  # Vérifie si le nombre est pair
             somme += nombre
 
-    print("Liste :", liste)
     print("Somme des nombres pairs :", somme)
 ma_liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 somme_nombres_pairs(ma_liste)
@@ -21,8 +20,8 @@ def est_palindrome(chaine):
         return False
   return True
 
-print("bob : palindrome = ", est_palindrome("bob"))
-print("boby : palindrome = ", est_palindrome("boby"))
+chaine = 'boby'
+print(est_palindrome(chaine))
 
 
 #EXERCICE EX03_RECHERCHEMINMAX
@@ -74,6 +73,5 @@ liste_de_nombres = [10, 15, 20, 25, 30]
 resultat_moyenne = calcul_moyenne(liste_de_nombres)
 
 if resultat_moyenne is not None:
-    print("Liste de nombres :", liste_de_nombres)
     print("Moyenne des éléments :", resultat_moyenne)
 
